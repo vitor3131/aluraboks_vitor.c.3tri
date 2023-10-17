@@ -15,6 +15,7 @@
     min-height: 100vh;
     }
     h1 {
+    
     color: var(--branca);
     margin-bottom: 20px;
     font-size: 2rem;
@@ -41,7 +42,6 @@
     text-align: center;
     width: 120px;
     }
-    
     .tecla.ativa,
     .tecla:active {
     background-color: var(--vermelha);
@@ -50,11 +50,13 @@
     color: var(--branca);
     outline: none;
     }
+    
     .tecla.focus,
     .tecla:focus {
     outline: none;
     box-shadow: 1px 1px 10px var(--luz);
     }
+    
     .tecla.active:focus,
     .tecla:active:focus {
     box-shadow: 3px 3px 0 var(--vermelha-escura) inset, 1px 1px 10px var(--
